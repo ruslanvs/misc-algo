@@ -11,6 +11,7 @@ function findMaxDifference(arr) {
         if(diff > maxDiff) maxDiff = diff;
     }
     console.log(maxDiff);
+    return maxDiff;
 }
 
 findMaxDifference(arr);
